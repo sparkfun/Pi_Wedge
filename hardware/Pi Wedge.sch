@@ -19015,8 +19015,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="JP5" library="SparkFun" deviceset="LOGO-SFE" device="SK"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device="KIT" value="10uf"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device="KIT" value="10uf"/>
+<part name="C5V" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device="KIT" value="10uf"/>
+<part name="C3V" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device="KIT" value="10uf"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -19057,8 +19057,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="STANDOFF1" gate="G$1" x="223.52" y="25.4"/>
 <instance part="STANDOFF2" gate="G$1" x="223.52" y="27.94"/>
 <instance part="JP5" gate="G$1" x="231.14" y="25.4"/>
-<instance part="C1" gate="G$1" x="198.12" y="58.42"/>
-<instance part="C2" gate="G$1" x="213.36" y="58.42"/>
+<instance part="C5V" gate="G$1" x="198.12" y="58.42"/>
+<instance part="C3V" gate="G$1" x="213.36" y="58.42"/>
 <instance part="GND4" gate="1" x="198.12" y="48.26"/>
 <instance part="GND8" gate="1" x="213.36" y="48.26"/>
 <instance part="SUPPLY9" gate="G$1" x="198.12" y="63.5"/>
@@ -19149,12 +19149,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="127" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="C3V" gate="G$1" pin="-"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="213.36" y1="53.34" x2="213.36" y2="50.8" width="0.2032" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C5V" gate="G$1" pin="-"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="198.12" y1="53.34" x2="198.12" y2="50.8" width="0.2032" layer="91"/>
 </segment>
@@ -19190,7 +19190,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="5V"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C5V" gate="G$1" pin="+"/>
 <wire x1="198.12" y1="63.5" x2="198.12" y2="60.96" width="0.2032" layer="91"/>
 </segment>
 </net>
@@ -19226,7 +19226,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="C3V" gate="G$1" pin="+"/>
 <wire x1="213.36" y1="63.5" x2="213.36" y2="60.96" width="0.2032" layer="91"/>
 </segment>
 </net>
