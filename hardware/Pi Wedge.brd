@@ -135,7 +135,7 @@
 <wire x1="1.27" y1="49.53" x2="0" y2="48.514" width="0.2032" layer="20" curve="90"/>
 <wire x1="0" y1="48.514" x2="0" y2="30.734" width="0.2032" layer="20"/>
 <wire x1="0" y1="30.734" x2="1.27" y2="29.21" width="0.2032" layer="20" curve="90"/>
-<text x="8.763" y="48.514" size="1.016" layer="16" font="vector" ratio="20" rot="SMR180">V10</text>
+<text x="8.763" y="48.514" size="1.016" layer="16" font="vector" ratio="20" rot="SMR180">V11</text>
 <text x="32.004" y="26.67" size="1.016" layer="21" font="vector" ratio="19" rot="SR0" align="center-left">GND</text>
 <text x="21.59" y="26.67" size="1.016" layer="21" font="vector" ratio="19" rot="SR0" align="center-right">GND</text>
 <text x="27.94" y="13.97" size="2.032" layer="21" font="vector" ratio="19" rot="SR90" align="bottom-center">Pi Wedge</text>
@@ -1591,7 +1591,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun-2-layer">
+<designrules name="SparkFun-2-layer *">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -1661,7 +1661,7 @@ design rules under a new name.</description>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
@@ -1875,7 +1875,6 @@ design rules under a new name.</description>
 <via x="52.07" y="36.83" extent="1-16" drill="0.508"/>
 <via x="11.43" y="30.48" extent="1-16" drill="0.508"/>
 <via x="20.32" y="2.54" extent="1-16" drill="0.508"/>
-<wire x1="24.765" y1="12.7" x2="20.955" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="JP11" pad="2"/>
@@ -2034,9 +2033,11 @@ design rules under a new name.</description>
 <wire x1="20.955" y1="21.59" x2="19.685" y2="22.86" width="0.254" layer="16"/>
 <wire x1="19.685" y1="22.86" x2="19.685" y2="29.21" width="0.254" layer="16"/>
 <wire x1="19.685" y1="29.21" x2="20.32" y2="29.845" width="0.254" layer="16"/>
-<wire x1="20.32" y1="29.845" x2="23.495" y2="29.845" width="0.254" layer="16"/>
-<via x="23.495" y="29.845" extent="1-16" drill="0.508"/>
-<wire x1="23.495" y1="29.845" x2="23.495" y2="36.83" width="0.254" layer="1"/>
+<wire x1="20.32" y1="29.845" x2="22.606" y2="29.845" width="0.254" layer="16"/>
+<via x="22.606" y="29.845" extent="1-16" drill="0.508"/>
+<wire x1="22.606" y1="29.845" x2="22.86" y2="29.845" width="0.254" layer="1"/>
+<wire x1="22.86" y1="29.845" x2="23.495" y2="30.48" width="0.254" layer="1"/>
+<wire x1="23.495" y1="30.48" x2="23.495" y2="36.83" width="0.254" layer="1"/>
 <via x="23.495" y="36.83" extent="1-16" drill="0.508"/>
 <wire x1="23.495" y1="36.83" x2="13.97" y2="36.83" width="0.254" layer="16"/>
 <wire x1="13.97" y1="36.83" x2="13.97" y2="38.1" width="0.254" layer="16"/>
