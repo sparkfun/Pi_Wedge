@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -163,21 +163,6 @@
 <dimension x1="0" y1="49.53" x2="0" y2="0" x3="-10.16" y3="24.765" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="17.78" y1="1.27" x2="0" y2="1.27" x3="8.89" y3="-5.08" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="35.56" y1="1.27" x2="55.88" y2="1.27" x3="45.72" y3="-5.08" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<wire x1="2.54" y1="55.88" x2="2.54" y2="53.34" width="0.254" layer="51"/>
-<wire x1="5.08" y1="55.88" x2="5.08" y2="53.34" width="0.254" layer="51"/>
-<wire x1="12.7" y1="55.88" x2="12.7" y2="53.34" width="0.254" layer="51"/>
-<wire x1="15.24" y1="55.88" x2="15.24" y2="53.34" width="0.254" layer="51"/>
-<wire x1="17.78" y1="55.88" x2="17.78" y2="53.34" width="0.254" layer="51"/>
-<wire x1="20.32" y1="55.88" x2="20.32" y2="53.34" width="0.254" layer="51"/>
-<wire x1="22.86" y1="55.88" x2="22.86" y2="53.34" width="0.254" layer="51"/>
-<wire x1="40.64" y1="55.88" x2="40.64" y2="53.34" width="0.254" layer="51"/>
-<wire x1="30.48" y1="55.88" x2="30.48" y2="53.34" width="0.254" layer="51"/>
-<wire x1="33.02" y1="55.88" x2="33.02" y2="53.34" width="0.254" layer="51"/>
-<wire x1="35.56" y1="55.88" x2="35.56" y2="53.34" width="0.254" layer="51"/>
-<wire x1="38.1" y1="55.88" x2="38.1" y2="53.34" width="0.254" layer="51"/>
-<wire x1="50.8" y1="55.88" x2="50.8" y2="53.34" width="0.254" layer="51"/>
-<wire x1="48.26" y1="55.88" x2="48.26" y2="53.34" width="0.254" layer="51"/>
-<text x="26.67" y="56.515" size="1.27" layer="51" font="vector" ratio="15" align="bottom-center">Breadboard row spacing:</text>
 <text x="1.524" y="44.45" size="1.016" layer="21" font="vector" ratio="19" rot="SR0">C3V</text>
 <text x="1.27" y="35.56" size="1.016" layer="21" font="vector" ratio="19" rot="SR0">C5V</text>
 <text x="32.004" y="1.27" size="1.016" layer="21" font="vector" ratio="19" rot="SR0" align="center-left">GND</text>
@@ -1503,6 +1488,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="16.5" y="9.37"/>
 </polygon>
 </package>
+<package name="BREADBOARD_SPACING">
+<wire x1="-24.13" y1="1.27" x2="-24.13" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-21.59" y1="1.27" x2="-21.59" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-13.97" y1="1.27" x2="-13.97" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-11.43" y1="1.27" x2="-11.43" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-8.89" y1="1.27" x2="-8.89" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="13.97" y1="1.27" x2="13.97" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="8.89" y1="1.27" x2="8.89" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="11.43" y1="1.27" x2="11.43" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="24.13" y1="1.27" x2="24.13" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="21.59" y1="1.27" x2="21.59" y2="-1.27" width="0.254" layer="51"/>
+<text x="0" y="1.905" size="1.27" layer="51" font="vector" ratio="15" align="bottom-center">Breadboard row spacing:</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Electromechanical">
@@ -1719,6 +1721,7 @@ design rules under a new name.</description>
 </element>
 <element name="JP2" library="SparkFun-Connectors" package="1X12_NO_SILK_KIT" value="M121X12_NO_SILK_KIT" x="22.86" y="1.27" rot="MR90"/>
 <element name="JP3" library="SparkFun-Connectors" package="1X12_NO_SILK_KIT" value="M121X12_NO_SILK_KIT" x="30.48" y="1.27" rot="MR90"/>
+<element name="U$2" library="SparkFun-Aesthetics" package="BREADBOARD_SPACING" value="BREADBOARD_PATTERN" x="26.67" y="54.61"/>
 </elements>
 <signals>
 <signal name="SCL">

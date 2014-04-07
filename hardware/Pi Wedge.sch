@@ -16020,6 +16020,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="80.38" y="46.92"/>
 </polygon>
 </package>
+<package name="BREADBOARD_SPACING">
+<wire x1="-24.13" y1="1.27" x2="-24.13" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-21.59" y1="1.27" x2="-21.59" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-13.97" y1="1.27" x2="-13.97" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-11.43" y1="1.27" x2="-11.43" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-8.89" y1="1.27" x2="-8.89" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="13.97" y1="1.27" x2="13.97" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="8.89" y1="1.27" x2="8.89" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="11.43" y1="1.27" x2="11.43" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="24.13" y1="1.27" x2="24.13" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="21.59" y1="1.27" x2="21.59" y2="-1.27" width="0.254" layer="51"/>
+<text x="0" y="1.905" size="1.27" layer="51" font="vector" ratio="15" align="bottom-center">Breadboard row spacing:</text>
+</package>
 </packages>
 <symbols>
 <symbol name="5V">
@@ -17140,6 +17157,56 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="40.16" y="23.55"/>
 </polygon>
 </symbol>
+<symbol name="BREADBOARD_ROWS">
+<wire x1="0" y1="0" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="4.572" width="0.254" layer="94"/>
+<wire x1="8.89" y1="4.572" x2="8.128" y2="5.334" width="0.254" layer="94"/>
+<wire x1="8.128" y1="5.334" x2="8.89" y2="6.096" width="0.254" layer="94"/>
+<wire x1="8.89" y1="6.096" x2="8.89" y2="7.62" width="0.254" layer="94"/>
+<wire x1="8.89" y1="7.62" x2="7.62" y2="8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="8.89" x2="1.27" y2="8.89" width="0.254" layer="94"/>
+<wire x1="1.27" y1="8.89" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0.762" y2="5.334" width="0.254" layer="94"/>
+<wire x1="0.762" y1="5.334" x2="0" y2="6.096" width="0.254" layer="94"/>
+<wire x1="0" y1="6.096" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.112" y1="8.128" x2="7.112" y2="0.508" width="0.254" layer="94"/>
+<wire x1="7.62" y1="8.128" x2="7.62" y2="0.508" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0.508" x2="2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="1.27" y1="8.128" x2="1.27" y2="0.508" width="0.254" layer="94"/>
+<wire x1="1.778" y1="8.128" x2="1.778" y2="0.508" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0.508" x2="4.826" y2="0.508" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.016" x2="2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.524" x2="2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="4.064" y1="2.032" x2="2.54" y2="2.032" width="0.254" layer="94"/>
+<wire x1="4.064" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="3.048" x2="2.54" y2="3.048" width="0.254" layer="94"/>
+<wire x1="4.064" y1="3.556" x2="2.54" y2="3.556" width="0.254" layer="94"/>
+<wire x1="4.064" y1="4.064" x2="2.54" y2="4.064" width="0.254" layer="94"/>
+<wire x1="4.064" y1="4.572" x2="2.54" y2="4.572" width="0.254" layer="94"/>
+<wire x1="4.064" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="4.064" y1="5.588" x2="2.54" y2="5.588" width="0.254" layer="94"/>
+<wire x1="4.064" y1="6.096" x2="2.54" y2="6.096" width="0.254" layer="94"/>
+<wire x1="4.064" y1="6.604" x2="2.54" y2="6.604" width="0.254" layer="94"/>
+<wire x1="4.064" y1="7.112" x2="2.54" y2="7.112" width="0.254" layer="94"/>
+<wire x1="4.064" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="4.064" y1="8.128" x2="2.54" y2="8.128" width="0.254" layer="94"/>
+<wire x1="6.35" y1="1.016" x2="4.826" y2="1.016" width="0.254" layer="94"/>
+<wire x1="6.35" y1="1.524" x2="4.826" y2="1.524" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.032" x2="4.826" y2="2.032" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="4.826" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="3.048" x2="4.826" y2="3.048" width="0.254" layer="94"/>
+<wire x1="6.35" y1="3.556" x2="4.826" y2="3.556" width="0.254" layer="94"/>
+<wire x1="6.35" y1="4.064" x2="4.826" y2="4.064" width="0.254" layer="94"/>
+<wire x1="6.35" y1="4.572" x2="4.826" y2="4.572" width="0.254" layer="94"/>
+<wire x1="6.35" y1="5.08" x2="4.826" y2="5.08" width="0.254" layer="94"/>
+<wire x1="6.35" y1="5.588" x2="4.826" y2="5.588" width="0.254" layer="94"/>
+<wire x1="6.35" y1="6.096" x2="4.826" y2="6.096" width="0.254" layer="94"/>
+<wire x1="6.35" y1="6.604" x2="4.826" y2="6.604" width="0.254" layer="94"/>
+<wire x1="6.35" y1="7.112" x2="4.826" y2="7.112" width="0.254" layer="94"/>
+<wire x1="6.35" y1="7.62" x2="4.826" y2="7.62" width="0.254" layer="94"/>
+<wire x1="6.35" y1="8.128" x2="4.826" y2="8.128" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="5V" prefix="SUPPLY">
@@ -17237,6 +17304,19 @@ logo. Default layer for the logo on the board is tSilk.</description>
 </technologies>
 </device>
 <device name="1_INCH" package="SFE_LOGO_NAME_FLAME_1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BREADBOARD_PATTERN">
+<description>Reference markings that correspond to solderless breadboard row spacing.</description>
+<gates>
+<gate name="G$1" symbol="BREADBOARD_ROWS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BREADBOARD_SPACING">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -18288,6 +18368,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="JP3" library="SparkFun-Connectors" deviceset="M12" device="1X12_NO_SILK_KIT"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="U$2" library="SparkFun-Aesthetics" deviceset="BREADBOARD_PATTERN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18324,6 +18405,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="JP3" gate="G$1" x="198.12" y="114.3" rot="R180"/>
 <instance part="SUPPLY5" gate="G$1" x="182.88" y="134.62"/>
 <instance part="SUPPLY6" gate="G$1" x="177.8" y="134.62"/>
+<instance part="U$2" gate="G$1" x="225.298" y="5.842"/>
 </instances>
 <busses>
 </busses>
