@@ -10,7 +10,7 @@ Pi Wedge breakout board.
 
 Resources:
 
-This example makes use of the Wiring Pi library, which streamlines the inteface
+This example makes use of the Wiring Pi library, which streamlines the interface
 the the I/O pins on the Raspberry Pi, providing an API that is similar to the
 Arduino.  You can learn about installing Wiring Pi here:
 http://wiringpi.com/download-and-install/

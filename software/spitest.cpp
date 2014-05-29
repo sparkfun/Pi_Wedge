@@ -10,8 +10,8 @@ Pi Wedge breakout board.
 
 Resources:
 
-This example makes use of the Wiring Pi library, which streamlines the inteface
-the the I/O pins on the Raspberry Pi, providing an API that is similar to the
+This example makes use of the Wiring Pi library, which streamlines the interface
+to the the I/O pins on the Raspberry Pi, providing an API that is similar to the
 Arduino.  You can learn about installing Wiring Pi here:
 http://wiringpi.com/download-and-install/
 
@@ -23,7 +23,6 @@ of the interface can be performed using ioctl calls on that descriptor.
 See the wiringPi SPI implementation (wiringPi/wiringPiSPI.c) for some examples.
 Parameters configurable with ioctl are documented here:
 http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/spi/spidev
-
 
 Hardware connections:
 
@@ -92,6 +91,8 @@ int main()
    sleep(5);
 
    // Do a one-hot bit selection for each field of the display
+   // It displays gibberish, but tells us that we're correctly addressing all 
+   // of the segments.
    for(int i = 1; i <= 0x7f; i <<= 1)
    {
       // the decimals, colon and apostrophe dots
