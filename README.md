@@ -8,7 +8,7 @@
 Pi Wedge - Breakout For Raspberry Pi GPIO Connector
 ----------------------------
 
-[![Pi Wedge](https://cdn.sparkfun.com/assets/parts/9/3/5/2/12652-01a.jpg)](https://cdn.sparkfun.com/assets/parts/9/3/5/2/12652-01a.jpg)
+[![Pi Wedge](https://cdn.sparkfun.com/assets/parts/9/3/5/2/12652-01a.jpg)](https://www.sparkfun.com/products/retired/12652)
 
 This is the Pi Wedge, a small board that connects to the Raspberry Pi’s 26-pin GPIO connector, and breaks the pins out to breadboard-friendly arrangement and spacing, and even adds a couple of decoupling capacitors on the power supply lines. The “Wedge” also makes the initial bringup process easier - you can plug an FTDI Basic module into the built-in serial port. Each Pi Wedge comes as an easy to assemble kit that can can be inserted into the Raspberry Pi’s GPIO port that allows you to prototype as soon as you are done soldering.
 
