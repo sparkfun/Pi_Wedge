@@ -1,4 +1,4 @@
-**NOTE:** *This product has been retired from our catalog. For the latest version, check out [BOB-13717](https://www.sparkfun.com/products/13717)*
+**NOTE:** *This product has been retired from our catalog. For the latest version, check out [BOB-13717](https://www.sparkfun.com/products/13717).*
 
 *If you are looking for more up-to-date info, please check out some of these resources to see how other users are still hacking and improving on this version of the product.*
 * *[SparkFun Forum](https://forum.sparkfun.com/)*
