@@ -19,6 +19,10 @@ Repository Contents
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 * **/Software** - C source code for SPI, I2C and GPIO examples.  All use [WiringPi](wiringpi.com) for the underlying device interfaces
 
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/236)** - Basic hookup guide.
+
 Product Versions
 ----------------
 * [ KIT-12652](https://www.sparkfun.com/products/12652)- Pi Wedge kit
